@@ -6,15 +6,15 @@ export default () =>
     {
       name: 'default',
       type: 'mysql',
-      host: process.env.DB_SERVICOS_HOST,
-      port: Number(process.env.DB_SERVICOS_PORT || 3306),
-      username: process.env.DB_SERVICOS_USER,
-      password: process.env.DB_SERVICOS_PASS,
-      database: process.env.DB_SERVICOS_NAME,
+      host: process.env.DB_API_HOST,
+      port: Number(process.env.DB_API_PORT || 3306),
+      username: process.env.DB_API_USER,
+      password: process.env.DB_API_PASS,
+      database: process.env.DB_API_NAME,
       logging: process.env.NODE_ENV !== 'production' ? 'all' : ['error'],
-      entities: [`${__dirname}/../entities/portalservicos/*{.ts,.js}`],
+      entities: [`${__dirname}/../entities/api/*{.ts,.js}`],
       cli: {
-        entitiesDir: `${__dirname}/../entities/portalservicos`,
+        entitiesDir: `${__dirname}/../entities/api`,
       },
     },
 
