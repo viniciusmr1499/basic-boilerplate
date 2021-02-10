@@ -28,7 +28,7 @@
     "explorer.openEditors.visible": 0,
     "explorer.autoReveal": false,
     "explorer.decorations.badges": true,
-    "explorer.confirmDelete": true,
+    "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": true,
     "explorer.decorations.colors": true,
     "explorer.enableDragAndDrop": true,
