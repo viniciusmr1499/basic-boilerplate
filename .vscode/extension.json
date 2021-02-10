@@ -1,0 +1,15 @@
+{
+  "recommendations": [
+    "rokoroku.vscode-theme-darcula",
+    "emmanuelbeziat.vscode-great-icons",
+    "dbaeumer.vscode-eslint",
+    "eamodio.gitlens",
+    "CoenraadS.bracket-pair-colorizer-2",
+    "jasonlhy.hungry-delete",
+    "ms-azuretools.vscode-docker",
+    "wix.vscode-import-cost",
+    "editorconfig.editorconfig",
+    "redhat.vscode-yaml",
+    "yzhang.markdown-all-in-one"
+  ]
+}

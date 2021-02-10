@@ -1,0 +1,11 @@
+# App Project
+.env
+dist
+node_modules
+tsconfig.tsbuildinfo
+
+# IDE's
+.idea
+
+# Others
+*.log

@@ -1,0 +1,97 @@
+{
+    // Desabilita a Telemetria
+    "telemetry.enableTelemetry": false,
+    
+    // Configurações dos arquivos
+    "files.autoSave": "onFocusChange",
+    "files.encoding": "utf8",
+    "files.insertFinalNewline": true,
+    "files.restoreUndoStack": true,
+    "files.saveConflictResolution": "askUser",
+    "files.enableTrash": true,
+    "files.eol": "\n",
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": false,
+    "files.watcherExclude": {
+        "**/node_modules/**": true,
+        "**/vendor/**": true
+    },
+
+    // Configurações do workbench
+    "workbench.colorTheme": "Darcula",
+    "workbench.sideBar.location": "left",
+    "workbench.activityBar.visible": true,
+    "workbench.activityBar.iconClickBehavior": "toggle",
+
+    // Configurações da área de navegação dos arquivos
+    "explorer.compactFolders": false,
+    "explorer.openEditors.visible": 0,
+    "explorer.autoReveal": false,
+    "explorer.decorations.badges": true,
+    "explorer.confirmDelete": true,
+    "explorer.confirmDragAndDrop": true,
+    "explorer.decorations.colors": true,
+    "explorer.enableDragAndDrop": true,
+    "explorer.incrementalNaming": "smart",
+    "explorer.sortOrder": "default",
+
+    // Configurações do Editor
+    "editor.suggestSelection": "recentlyUsedByPrefix",
+    "editor.comments.insertSpace": true,
+    "editor.autoClosingBrackets": "languageDefined",
+    "editor.fontFamily": "'Jetbrains Mono', 'Fira Code','Droid Sans Mono', 'monospace', 'Droid Sans Fallback'",
+    "editor.fontLigatures": true,
+    "editor.folding": true,
+    "editor.showFoldingControls": "always",
+    "editor.formatOnSave": false,
+    "editor.formatOnPaste": true,
+    "editor.linkedEditing": true,
+    "editor.minimap.enabled": false,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+
+    // Configurações de Debug
+    "debug.allowBreakpointsEverywhere": true,
+    "debug.console.closeOnEnd": false,
+    "debug.inlineValues": true,
+    "debug.toolBarLocation": "docked",
+    "debug.console.wordWrap": true,
+    "debug.showInStatusBar": "always",
+
+    // Configurações do ESLint
+    "eslint.debug": true,
+    "eslint.alwaysShowStatus": true,
+    "eslint.codeActionsOnSave.mode": "all",
+    "eslint.format.enable": true,
+    "eslint.packageManager": "yarn",
+    "eslint.run": "onSave",
+    "eslint.codeAction.disableRuleComment": {
+        "enable": true,
+        "location": "separateLine"
+    },
+    "eslint.codeAction.showDocumentation": {
+        "enable": true
+    },
+
+    // Configurações da extensão Indent Rainbow
+    "indentRainbow.includedLanguages": [""],
+    "indentRainbow.colors": [
+        "rgba(255,255,64,0.07)",
+        "rgba(255,127,255,0.07)",
+        "rgba(79,236,236,0.07)"
+    ],
+
+    // Configuração da extensão Hungry Delete
+    "hungryDelete.enableSmartBackspace": true,
+    "hungryDelete.considerIncreaseIndentPattern": false,
+    "hungryDelete.followAbovelineIndent": false,
+    "hungryDelete.keepOneSpace": false,
+
+    // Configuração do Typescript
+    "typescript.suggest.paths": true,
+
+    // Configurações do Prettier
+    "prettier.requireConfig": false
+
+}
