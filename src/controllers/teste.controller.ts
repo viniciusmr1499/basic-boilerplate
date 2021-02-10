@@ -1,18 +1,13 @@
-import { Controller, Get } from '@tsed/common';
-import { Hidden } from '@tsed/swagger';
+import { Request, Response } from 'express';
 
-@Controller('/teste')
+import { Controller, Get } from '@tsed/common';
+
+@Controller('/test')
 export class Test {
   @Get('/success')
-  sucess() {
-    return {
-      message: 'Success',
-    };
-  }
-
-  @Get()
-  @Hidden()
-  error() {
-    throw Error;
+  public async sucess(request: Request, response: Response): Promise<Response> {
+    return response.json({
+      message: 'success',
+    });
   }
 }
